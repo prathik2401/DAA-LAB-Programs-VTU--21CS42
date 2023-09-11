@@ -1,0 +1,6 @@
+package lab.cse;
+
+import java.util.*;
+public class QuickSort {
+	
+}

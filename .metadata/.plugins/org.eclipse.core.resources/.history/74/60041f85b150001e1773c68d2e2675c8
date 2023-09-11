@@ -1,0 +1,16 @@
+package lab.cse;
+import java.util.*;
+public class DijkstrasAlgoritm {
+	static void shortest(int v, int cost[][], int dist[], int n) {
+		boolean [] S = new boolean [10];
+		int i, w, u, num;
+		for(i=1;i<=n;i++) {
+			S[i] = false;
+			dist[i] = cost[v][i];
+		}
+		S[v] = true;
+		dist[v] = 0;
+		num = 2;
+		while(num <= n)
+	}
+}

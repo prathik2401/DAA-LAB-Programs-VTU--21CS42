@@ -1,0 +1,7 @@
+package lab.cse;
+import java.util.*;
+public class DijkstrasAlgoritm {
+	static void shortest(int v, int cost[][], int dist[], int n) {
+		boolean [] s = new boolean
+	}
+}

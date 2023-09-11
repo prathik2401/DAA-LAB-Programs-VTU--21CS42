@@ -1,0 +1,6 @@
+package lab.cse;
+
+public class GreedyKnapsack {
+	private double [] weight, profit, ratio, solnVector;
+	
+}

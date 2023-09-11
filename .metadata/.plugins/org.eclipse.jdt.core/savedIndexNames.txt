@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+C:\Users\Prathik\eclipse-workspace\DAA LAB Programs VTU- 21CS42\.metadata\.plugins\org.eclipse.jdt.core
+2697313334.index
+2640739180.index
+1865797976.index
+784018515.index
+1095261637.index
+93561951.index
+3079959212.index

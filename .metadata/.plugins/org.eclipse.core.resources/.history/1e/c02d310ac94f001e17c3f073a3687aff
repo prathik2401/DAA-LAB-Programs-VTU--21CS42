@@ -1,0 +1,17 @@
+package lab.cse;
+
+import java.util.Scanner;
+import java.util.Random;
+
+
+public class MergeSort {
+	static final int MAX = 10005;
+	static int [] a = new int[MAX];
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the MAX array size : ");
+		int n = input.nextInt();
+		
+	}
+}

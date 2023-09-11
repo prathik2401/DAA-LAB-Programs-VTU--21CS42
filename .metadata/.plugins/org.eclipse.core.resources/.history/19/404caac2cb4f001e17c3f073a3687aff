@@ -1,0 +1,10 @@
+package lab.cse;
+import java.util.Scanner;
+public class GreedyKnapsack {
+	private double [] weight, profit, ratio, solnVector;
+	private double capacity;
+	GreedyKnapsack(){
+		Scanner scanner = new Scanner(System.in);
+		
+	}
+}

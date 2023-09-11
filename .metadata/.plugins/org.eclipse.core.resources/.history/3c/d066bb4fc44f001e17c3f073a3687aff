@@ -1,0 +1,30 @@
+package lab.cse;
+
+import java.util.*;
+import java.io.*;
+
+
+public class QuickSort {
+	static int [] a;
+	static int n;
+	static boolean flag = true;
+	public static void quickSort(int [] a, int low, int high) {
+		int i = low, j = high, temp;
+		int pivot = a[(low+high)/2];
+		if(flag) {
+			while(i<=j) {
+				while(a[i]<pivot)
+					i++;
+				while(a[j]>pivot)
+					j--;
+				if(i<=j) {
+					temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+					i++;
+					j--;
+				}
+			}
+		}
+	}
+}

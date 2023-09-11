@@ -1,0 +1,30 @@
+package lab.cse;
+
+import java.util.Scanner;
+
+public class GreedyKnapsack {
+	private double [] weight, profit, ratio, solnVector;
+	private double capacity;
+	GreedyKnapsack(){
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter number of items : ");
+		int n = scanner.nextInt();
+		weight = new double[n];
+		profit = new double[n];
+		ratio = new double[n];
+		solnVector = new double[n];
+		System.out.println("Enter the weight of items : ");
+		for(int i = 0; i<n;i++)
+			weight[i] = scanner.nextDouble();
+		System.out.println("Enter the profits of items : ");
+		for(int i=0;i<n;i++)
+			profit[i] = scanner.nextDouble();
+		System.out.println("Enter the capacity of knapsack : ");
+		capacity = scanner.nextDouble();
+		scanner.close();
+	}
+	int getNext() {
+		int index = -1;
+		double highest = 0;for(int i=0;i<)
+	}
+}
